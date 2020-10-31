@@ -5,9 +5,9 @@ const Trainee = (props) => {
   const { name, title, headshot } = props.trainee;
   return (
     <>
-      <article>
-        <img src="" alt="" />
-        <h3>{name}</h3>
+      <article className={styles.trainee}>
+        <img src={headshot} alt="Trainee picture" className={styles.image} />
+        <h4>{name}</h4>
         <p>{title}</p>
       </article>
     </>

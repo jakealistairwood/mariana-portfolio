@@ -1,0 +1,25 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/resets";
+
+.trainee {
+  height: 200px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+
+  .image {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  h4 {
+    color: $secondary;
+  }
+
+  p {
+    font-size: 10px;
+  }
+  
+}
