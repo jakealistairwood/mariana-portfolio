@@ -1,25 +1,31 @@
 import React from "react";
 import styles from "./NavBar.module.scss";
 import { Link } from "@reach/router";
+import logo from "../../assets/images/logo-1.png";
 
 const NavBar = () => {
   return (
     <nav className={styles.navbar}>
-      <Link to="main">
-        <h3>Student Bio</h3>
-      </Link>
-      <Link to="gallery">
-        <h3>Cohort Gallery</h3>
-      </Link>
-      <a href="https://nology.io/about-us/" target="__blank">
-        <h3>About _nology</h3>
-      </a>
-      <a href="https://nology.io/companies-employers/hire-a-developer/" target="__blank">
-        <h3>Hire a Developer</h3>
-      </a>
-      <a href="https://nology.io/contact/" target="__blank">
-        <h3>Contact Us</h3>
-      </a>
+      <div className={styles.logo_container}>
+        <img className={styles.logo} src={logo} alt="_nology logo" />
+      </div>
+      <div className={styles.nav_items}>
+        <Link to="main">
+          <h5>Student Bio</h5>
+        </Link>
+        <Link to="gallery">
+          <h5>Cohort Gallery</h5>
+        </Link>
+        <a href="https://nology.io/about-us/" target="__blank">
+          <h5>About _nology</h5>
+        </a>
+        <a href="https://nology.io/companies-employers/hire-a-developer/" target="__blank">
+          <h5>Hire a Developer</h5>
+        </a>
+        <a href="https://nology.io/contact/" target="__blank">
+          <h5>Contact Us</h5>
+        </a>
+      </div>
     </nav>
   );
 };
