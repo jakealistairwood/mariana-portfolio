@@ -1,11 +1,14 @@
 import React from "react";
-import styles from "./Routes.module.scss";
+import { Router } from '@reach/router';
+import Main from '../Main';
+import Gallery from '../Gallery';
 
 const Routes = () => {
   return (
-    <>
-      <p>Routes works</p>
-    </>
+    <Router>
+      <Main path="main"/>
+      <Gallery path="gallery" />
+    </Router>
   );
 };
 
