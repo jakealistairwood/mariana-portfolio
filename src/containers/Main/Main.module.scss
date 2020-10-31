@@ -1,0 +1,17 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/resets";
+@import "../../assets//styles/fonts";
+
+button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 100%;
+  background-color: $light;
+  color: $primary;
+}
+
+.headshot {
+  width: 200px;
+  height: 300px;
+}

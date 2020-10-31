@@ -11,17 +11,22 @@ const Routes = () => {
   
   const nextTrainee = () => {
     const newIndex = trainee.index+1;
-    return setTrainee(newIndex);
+    return setTrainee(data.trainees[newIndex]);
   }
 
   const prevTrainee = () => {
     const newIndex = trainee.index-1;
-    return setTrainee(newIndex);
+    return setTrainee(data.trainees[newIndex]);
   }
 
   return (
     <Router>
-      <Main path="/"/>
+      <Main 
+        path="/" 
+        trainee={trainee} 
+        nextTrainee={nextTrainee}
+        prevTrainee={prevTrainee}
+      />
       <Gallery path="gallery" />
     </Router>
   );
