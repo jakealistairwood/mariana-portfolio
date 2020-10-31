@@ -1,5 +1,6 @@
 @import "../../assets/styles/variables";
 @import "../../assets/styles/resets";
+@import "../../assets//styles/fonts";
 
 .trainee {
   height: 200px;
@@ -16,6 +17,7 @@
 
   h4 {
     color: $secondary;
+    margin-top: 5px;
   }
 
   p {

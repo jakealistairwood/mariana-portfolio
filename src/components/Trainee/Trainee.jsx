@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Trainee.module.scss";
+// import pic from '../../assets/images/Aiste.png';
 
 const Trainee = (props) => {
   const { name, title, headshot } = props.trainee;
