@@ -6,7 +6,7 @@ import Gallery from '../Gallery';
 const Routes = () => {
   return (
     <Router>
-      <Main path="main"/>
+      <Main path="/"/>
       <Gallery path="gallery" />
     </Router>
   );

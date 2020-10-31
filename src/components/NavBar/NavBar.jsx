@@ -10,7 +10,7 @@ const NavBar = () => {
         <img className={styles.logo} src={logo} alt="_nology logo" />
       </div>
       <div className={styles.nav_items}>
-        <Link to="main">
+        <Link to="/">
           <h5>Student Bio</h5>
         </Link>
         <Link to="gallery">

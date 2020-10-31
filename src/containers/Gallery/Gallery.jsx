@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Gallery.module.scss";
+import TraineeList from "../../components/TraineeList";
 
 const Gallery = () => {
   return (
     <>
-      <p>Gallery works</p>
+      <TraineeList />
     </>
   );
 };

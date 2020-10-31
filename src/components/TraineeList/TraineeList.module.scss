@@ -1,0 +1,23 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/resets";
+
+.gallery {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  h3 {
+    color: $primary;
+    text-align: center;
+  }
+
+  p {
+    color: $secondary;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+  }
+}
