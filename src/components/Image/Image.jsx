@@ -1,10 +1,12 @@
 import React from "react";
-import styles from "./Image.module.scss";
+// import styles from "./Image.module.scss";
 
 const Image = (props) => {
+
+  const {  headshot, index } = props.trainee;
   return (
     <>
-      <img src={props.trainee.headshot} alt="Trainee Headshot" className={styles.headshot} />
+      <img src={headshot} alt="Trainee Headshot" id={`card-${index}`} className={'headshot'} />
     </>
   );
 };

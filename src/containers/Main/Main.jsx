@@ -1,17 +1,31 @@
 import React from "react";
-import styles from "./Main.module.scss";
+import "./Main.scss";
 import Image from "../../components/Image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const Main = (props) => {
   const { trainees } = props;
-  const { headshot, index } = props.trainee;
+  const {
+    _id,
+    index,
+    name,
+    title,
+    headshot,
+    city,
+    quote,
+    bio,
+    linkedin,
+    github,
+    portfolio
+  } = props.trainee;
+
   return (
     <>
-      <div className={styles.cards_slider}>
-        <div className={styles.cards_slider_wrapper} style={{
-          'transform': `translateX(-${props.trainee.index*(100/props.trainees.length)}%)`
+    {/* active_slide_${props.trainee.index} */}
+      <div className={`cards_slider`}>
+        <div className='cards_slider_wrapper' style={{
+          'transform': `translateX(-${index*(100/trainees.length)}%)`
         }}>
           {
             trainees.map(trainee => <Image key={trainee._id} trainee={trainee} />)
