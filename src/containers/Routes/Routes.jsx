@@ -24,6 +24,7 @@ const Routes = () => {
       <Main 
         path="/" 
         trainee={trainee} 
+        trainees={trainees}
         nextTrainee={nextTrainee}
         prevTrainee={prevTrainee}
       />

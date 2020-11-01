@@ -57,7 +57,7 @@ const data = {
       "index": 4,
       "name": "Ellis Hornabrook",
       "title": "Junior Developer",
-      "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
+      "headshot": "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg",
       "city": "",
       "quote": "",
       "bio": "",
@@ -67,10 +67,10 @@ const data = {
     },
     {
       "_id": "EH2",
-      "index": 4,
+      "index": 5,
       "name": "Evan Hynes",
       "title": "Junior Developer",
-      "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
+      "headshot": "https://www.themealdb.com/images/media/meals/tqrrsq1511723764.jpg",
       "city": "",
       "quote": "",
       "bio": "",
@@ -80,7 +80,7 @@ const data = {
     },
     {
       "_id": "GM",
-      "index": 5,
+      "index": 6,
       "name": "Grant McIntyre",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -93,7 +93,7 @@ const data = {
     },
     {
       "_id": "FM",
-      "index": 6,
+      "index": 7,
       "name": "Frank McNulty",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -106,7 +106,7 @@ const data = {
     },
     {
       "_id": "HH",
-      "index": 7,
+      "index": 8,
       "name": "Harry Holden",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -119,7 +119,7 @@ const data = {
     },
     {
       "_id": "JR",
-      "index": 8,
+      "index": 9,
       "name": "Jack Roy",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -132,7 +132,7 @@ const data = {
     },
     {
       "_id": "JW",
-      "index": 9,
+      "index": 10,
       "name": "Jake Wood",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -145,7 +145,7 @@ const data = {
     },
     {
       "_id": "JL",
-      "index": 10,
+      "index": 11,
       "name": "James Loizou",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -158,7 +158,7 @@ const data = {
     },
     {
       "_id": "JC",
-      "index": 11,
+      "index": 12,
       "name": "Joe Calleya",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -171,7 +171,7 @@ const data = {
     },
     {
       "_id": "JG",
-      "index": 12,
+      "index": 13,
       "name": "John Guilding",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -184,7 +184,7 @@ const data = {
     },
     {
       "_id": "JM",
-      "index": 13,
+      "index": 14,
       "name": "Joseph McGrath",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -197,7 +197,7 @@ const data = {
     },
     {
       "_id": "KT",
-      "index": 14,
+      "index": 15,
       "name": "Kuda Thomas",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -210,7 +210,7 @@ const data = {
     },
     {
       "_id": "ML",
-      "index": 15,
+      "index": 16,
       "name": "Manuel Lucas",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -223,7 +223,7 @@ const data = {
     },
     {
       "_id": "MR",
-      "index": 16,
+      "index": 17,
       "name": "Manuela Redinciuc",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -236,7 +236,7 @@ const data = {
     },
     {
       "_id": "MB",
-      "index": 17,
+      "index": 18,
       "name": "Mark Birchall",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -249,7 +249,7 @@ const data = {
     },
     {
       "_id": "MC",
-      "index": 18,
+      "index": 19,
       "name": "Matt Church",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -262,7 +262,7 @@ const data = {
     },
     {
       "_id": "NT",
-      "index": 19,
+      "index": 20,
       "name": "Nick Truby",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -275,7 +275,7 @@ const data = {
     },
     {
       "_id": "OR",
-      "index": 20,
+      "index": 21,
       "name": "Ollie Robins",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -288,7 +288,7 @@ const data = {
     },
     {
       "_id": "SR",
-      "index": 21,
+      "index": 22,
       "name": "Sophie Roe",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -301,7 +301,7 @@ const data = {
     },
     {
       "_id": "SM",
-      "index": 22,
+      "index": 23,
       "name": "Steve Maguire",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
@@ -313,9 +313,9 @@ const data = {
       "portfolio": ""
     },
     {
-      "_id": "Steve Shackleton",
-      "index": 23,
-      "name": "Nick Truby",
+      "_id": "SS",
+      "index": 24,
+      "name": "Steve Shackleton",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
       "city": "",
@@ -327,7 +327,7 @@ const data = {
     },
     {
       "_id": "VR",
-      "index": 24,
+      "index": 25,
       "name": "Vuli Russel",
       "title": "Junior Developer",
       "headshot": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
