@@ -7,7 +7,10 @@ const Trainee = (props) => {
   return (
     <>
       <article className={styles.trainee}>
-        <img src={headshot} alt="Trainee picture" className={styles.image} />
+        <div className={styles.imageContainer}>
+          <img src={headshot} alt="Trainee picture" className={styles.image} />
+          <div className={styles.imageOverlay}></div>
+        </div>
         <h4>{name}</h4>
         <p>{title}</p>
       </article>

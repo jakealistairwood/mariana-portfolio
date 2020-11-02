@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./NavBar.module.scss";
 import { Link } from "@reach/router";
-import logo from "../../assets/images/logo-1.png";
+import logo from "../../assets/images/primaryLogo.svg";
 
 const NavBar = () => {
   return (
