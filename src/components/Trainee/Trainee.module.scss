@@ -27,7 +27,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      z-index: 200;
+      z-index: 10;
       opacity: 0;
       transition: .3s ease-in;
       background-color: $secondary;
@@ -35,7 +35,7 @@
 
     &:hover {
       cursor: pointer;
-      
+
       &::after {
         opacity: 0.3;
       }
@@ -55,8 +55,9 @@
   }
 
   p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 10px;
-    font-weight: 300;
+    font-weight: 400;
   }
   
 }
