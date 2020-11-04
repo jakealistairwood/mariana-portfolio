@@ -23,28 +23,35 @@ const Main = (props) => {
 
   return (
     <div className={"page"}>
-      {/* <div className={`cards_slider active_slide_${props.trainee.index}`}>
-        <div className='cards_slider_wrapper' style={{
-          'transform': `translateX(-${index*(100/trainees.length)}%)`
-        }}>
-          {
-            trainees.map(trainee => <Image key={trainee._id} trainee={trainee} />)
-          }
+        <div className={"pageHeader"}>
+          <h1>Welcome to the Mariana Intake.</h1>
         </div>
-      </div> */}
-
-      <button
-        onClick={() => props.prevTrainee()}
-        disabled={index === 0}
-      >
-        <FontAwesomeIcon icon={faChevronLeft} />
-      </button>
-      <button
-        onClick={() => props.nextTrainee()}
-        disabled={index === 24}
-      >
-        <FontAwesomeIcon icon={faChevronRight} />
-      </button>
+        <hr/>
+        <section className={"carouselSection"}>
+        { <div className={`cards_slider active_slide_${props.trainee.index}`}>
+            <div className='cards_slider_wrapper' style={{
+              'transform': `translateX(-${index*(100/trainees.length)}%)`
+            }}>
+              {
+                trainees.map(trainee => <Image key={trainee._id} trainee={trainee} />)
+              }
+            </div>
+          </div> }
+          <div className={"buttonContainer"}>
+            <button
+              onClick={() => props.prevTrainee()}
+              disabled={index === 0}
+            >
+              <FontAwesomeIcon icon={faChevronLeft} />
+            </button>
+            <button
+              onClick={() => props.nextTrainee()}
+              disabled={index === 25}
+            >
+              <FontAwesomeIcon icon={faChevronRight} />
+            </button>
+          </div>
+      </section>
 
       <section className={"intro"}>
         <FontAwesomeIcon icon={faArrowDown} className={"arrow"} />

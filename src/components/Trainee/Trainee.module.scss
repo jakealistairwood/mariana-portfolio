@@ -3,25 +3,61 @@
 @import "../../assets//styles/fonts";
 
 .trainee {
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
   width: 80%;
   text-align: center;
   margin: auto;
 
-  .image {
-    height: 70px;
-    width: 70px;
-    margin: auto;
-    border-radius: 50%;
+  .imageContainer {
+    display: flex;
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+
+    &::after {
+      position: absolute;
+      content: '';
+      border-radius: 50%;
+      width: 85%;
+      margin: 0 auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      opacity: 0;
+      transition: .3s ease-in;
+      background-color: $secondary;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      &::after {
+        opacity: 0.3;
+      }
+    }
+
+    .image {
+      height: 25vh;
+      width: auto;
+      border-radius: 50%;
+      position: relative;
+    }
   }
 
   h4 {
     color: $secondary;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 10px;
+    font-weight: 400;
   }
   
 }
