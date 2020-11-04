@@ -4,19 +4,21 @@ import logo from "../../assets/images/secondaryLogo.svg";
 
 const Footer = () => {
   return (
-    <section className={styles.footer}>
-      <div className={styles.footer_logo}>
-        <img src={logo} />
+    <footer className={styles.footer}>
+      <div className={styles.footer_wrapper}>
+        <div className={styles.footer_logo}>
+          <img src={logo} />
+        </div>
+        <div className={styles.footer_links}>
+          <a href="https://nology.io/companies-employers/hire-a-developer/" target="__blank">
+            <h5>Hire a Developer</h5>
+          </a>
+          <a href="https://nology.io/contact/" target="__blank">
+            <h5>Contact Us</h5>
+          </a>
+        </div>
       </div>
-      <div className={styles.footer_links}>
-        <a href="https://nology.io/companies-employers/hire-a-developer/" target="__blank">
-          <h5>Hire a Developer</h5>
-        </a>
-        <a href="https://nology.io/contact/" target="__blank">
-          <h5>Contact Us</h5>
-        </a>
-      </div>
-    </section>
+    </footer>
   );
 };
 

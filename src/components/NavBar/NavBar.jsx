@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./NavBar.module.scss";
 import { Link } from "@reach/router";
 import logo from "../../assets/images/primaryLogo.svg";
-import gridIcon from "../../assets/images/gridIcon.svg";
+import { ReactComponent as GridIcon } from "../../assets/images/gridIcon.svg";
 
 const NavBar = () => {
   return (
@@ -13,7 +13,7 @@ const NavBar = () => {
         </div>
         <Link to="gallery">
         <div className={styles.iconWrapper}>
-        <img src={gridIcon} alt=""></img>
+          <GridIcon className={styles.gridIcon} />
         </div>
         </Link>
       </div>

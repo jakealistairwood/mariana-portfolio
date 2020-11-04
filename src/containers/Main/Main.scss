@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     padding-bottom: 50px;
     color: $primary;
@@ -39,19 +39,26 @@
     width: 80%;
     height: 60vh;
     margin: 0 auto;
+    
+    .buttonContainer {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
 
-    button {
-      width: 30px;
-      height: 30px;
-      border: none;
-      border-radius: 100%;
-      background-color: $light;
-      color: $primary;
-      position: relative;
-
-      &:focus {
-        outline: none;
-        cursor: pointer;
+      button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 100%;
+        background-color: rgba(0, 0, 0, 0.04);
+        color: $primary;
+        margin: 5px;
+  
+        &:focus {
+          outline: none;
+          cursor: pointer;
+        }
       }
     }
 
@@ -65,7 +72,7 @@
 
     .cards_slider {
       position: relative;
-      max-width: 290px;
+      max-width: 350px;
       width: 80%;
       margin: 0px auto;
   
@@ -73,7 +80,6 @@
       display: flex;
       position: absolute;
       transition: transform 300ms cubic-bezier(0.455, 0.03, 0.5151, 0.955);
-      // background-color: coral;
       
       .headshot {
         width: 350px;
@@ -105,7 +111,9 @@
 
 .intro {
   .arrow {
-    height: 100px;
+    margin: 150px;
+    font-size: 2.5rem;
+    color: $primary;
   }
   h1 {
     color: $primary;
@@ -127,16 +135,18 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 80vh;
+  // height: 80vh;
   // border: 2px solid black;
   margin: 100px auto;
-  background-color: $light;
-  padding: 20px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
 
-  .header {
+  .bio-header {
     width: 100%;
     height: 15%;
-    // background-color: orange;
+    // background-color: coral;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,7 +159,7 @@
       h2 {
         color: $primary;
         margin: 5px 0;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         letter-spacing: 0.1em;
       }
 
@@ -163,10 +173,10 @@
 
     .icons {
       display: flex;
-      background-color: coral;
-      justify-content: space-around;
+      width: 10%;
+      justify-content: space-between;
       align-items: center;
-      font-size: 30px;
+      font-size: 2.8rem;
       color: $primary;
     }
   }
@@ -177,9 +187,12 @@
   }
 
   .quote {
+    display: flex;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2rem;
+    text-align: justify;
     color: rgba(68, 68, 68, 0.4);
     margin: 30px 0;
   }
@@ -199,8 +212,8 @@
       flex-direction: column;
 
       .bio {
-        color: $dark;
-        font-size: 1.1rem;
+        color: $primary;
+        font-size: 1.2rem;
         font-family: 'Montserrat', sans-serif;
         text-align: justify;
         line-height: 1.6em;
@@ -210,37 +223,53 @@
         margin-top: 20px;
       }
 
-      .buttons {
+      .buttonContainer {
         display: flex;
-        // justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        height: 30%;
         margin-top: 50px;
+        width: 50%;
+
+        .portfolio-btn,
+        .cv-btn {
+          width: 180px;
+          height: 40px;
+          border-radius: 5px;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 0.6rem;
+          font-weight: 700;
+          letter-spacing: 0.2em;
+          cursor: pointer;
+          transform: scale(1);
+
+          &:hover {
+            transform: scale(1.01);
+          }
+        }
 
         .portfolio-btn {
-          width: 150px;
-          height: 40px;
           background-image: linear-gradient(to right, #f43268, #f74267, #f94f66, #fb5c66, #fc6767);
-          border-radius: 5px;
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
           border: none;
           color: white;
+          opacity: 0.9;
+
+          &:hover {
+            opacity: 1.0;
+          }
         }
 
         .cv-btn {
-          width: 150px;
-          height: 40px;
-          border-radius: 5px;
           border: 2px solid #f74267;
           color: #f74267;
-          margin-left: 120px;
+          background-color: white;
         }
       }
     }
 
     .bio-image {
-      width: 25%;
-      height: auto;
-      margin: auto;
+      width: auto;
+      height: 40vh;
       border-radius: 5px;
     }
 
