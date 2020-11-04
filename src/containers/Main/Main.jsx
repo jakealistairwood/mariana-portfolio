@@ -60,13 +60,13 @@ const Main = (props) => {
       </section>
 
       <article className={"trainee-bio"}>
-        <header className={"header"}>
+        <header className={"bio-header"}>
           <div className={"name-title"}>
             <h2>{name}</h2>
             <h4>{title}</h4>
           </div>
           <div className={"icons"}>
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} className={"github-icon"} />
             <FontAwesomeIcon icon={faLinkedin} />
           </div>
         </header>
@@ -74,7 +74,7 @@ const Main = (props) => {
         <div className={"bio-container"}>
           <div className={"left"}>
             <p className={"bio"}>{bio}</p>
-            <div className={"buttons"}>
+            <div className={"buttonContainer"}>
               <button className={"portfolio-btn"}>My Portfolio</button>
               <button className={"cv-btn"}>Take a look at my CV</button>
             </div>
