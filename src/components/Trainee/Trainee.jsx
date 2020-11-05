@@ -9,7 +9,9 @@ const Trainee = (props) => {
       <article className={styles.trainee}>
         <div className={styles.imageContainer}>
           <img src={headshot} alt="Trainee picture" className={styles.image} />
-          <div className={styles.imageOverlay}></div>
+          <div className={styles.imageOverlay}>
+            <p>View Profile</p>
+          </div>
         </div>
         <h4>{name}</h4>
         <p>{title}</p>

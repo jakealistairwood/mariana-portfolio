@@ -5,48 +5,83 @@
 .trainee {
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 400px;
   width: 80%;
   text-align: center;
   margin: auto;
 
   .imageContainer {
     display: flex;
-    height: 25vh;
-    width: 100%;
-    position: relative;
+    width: 240px;
+    margin: 0 auto;
+    position: relative;;
     justify-content: center;
 
-    &::after {
-      position: absolute;
-      content: '';
+    .image{
+      display: block;
+      width: 100%;
       border-radius: 50%;
-      width: 85%;
-      margin: 0 auto;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      opacity: 0;
-      transition: .3s ease-in;
-      background-color: $secondary;
+      height: auto;
     }
 
-    &:hover {
-      cursor: pointer;
+    .imageOverlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background-color: $secondary;
+      color: $light;
+      opacity: 0;
+      width: 100%;
+      border-radius: 50%;
+      transition: .3s ease-in;
 
-      &::after {
+      &:hover {
+        cursor: pointer;
         opacity: 0.3;
+      }
+
+      p {
+        font-size: 1.8rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
 
-    .image {
-      height: 25vh;
-      width: auto;
-      border-radius: 50%;
-      position: relative;
-    }
+    // &::after {
+    //   position: absolute;
+    //   content: '';
+    //   border-radius: 50%;
+    //   width: 85%;
+    //   margin: 0 auto;
+    //   top: 0;
+    //   bottom: 0;
+    //   left: 0;
+    //   right: 0;
+    //   z-index: 10;
+    //   opacity: 0;
+    //   transition: .3s ease-in;
+    //   background-color: $secondary;
+    // }
+
+    // &:hover {
+    //   cursor: pointer;
+
+    //   &::after {
+    //     opacity: 0.3;
+    //   }
+    // }
+
+    // .image {
+    //   height: 25vh;
+    //   width: auto;
+    //   border-radius: 50%;
+    //   position: relative;
+    // }
   }
 
   h4 {
