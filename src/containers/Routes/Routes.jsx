@@ -28,7 +28,10 @@ const Routes = () => {
         nextTrainee={nextTrainee}
         prevTrainee={prevTrainee}
       />
-      <Gallery path="gallery" />
+      <Gallery 
+        path="gallery"
+        setTrainee={setTrainee}
+      />
     </Router>
   );
 };
