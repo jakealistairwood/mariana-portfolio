@@ -112,11 +112,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Harry_Holden.png",
       "city": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": '"Nothing will work unless you do." -  Maya Angelou',
+      "bio": "I am a junior web developer with a former career in aerospace engineering specialising in modelling & simulation. Keen problem solver, enthusiastic team member, with an eagerness to work on anything related to tech, I love to code! Think I could help you out? Let's work together.",
+      "linkedin": "https://www.linkedin.com/in/harry-holden-5b11a274",
+      "github": "https://github.com/Diplodocus-the-Diplodocus-King",
+      "portfolio": "https://www.thediplodocus.co.uk/"
     },
     {
       "_id": "JR",
@@ -294,11 +294,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Sophie_Roe.png",
       "city": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Wake up with determination. Go to bed with satisfaction.",
+      "bio": "A conscientious _nology graduate with a background in medical science seeking a junior software developer role. I am passionate about learning new skills and helping other people. I am mainly experienced in JavaScript and ReactJS, however I am motivated to progress and learn widely in my next role.",
+      "linkedin": "https://www.linkedin.com/in/sophie-roe95/",
+      "github": "https://github.com/sophieroe95",
+      "portfolio": "https://sophieroe.co.uk/"
     },
     {
       "_id": "SM",
