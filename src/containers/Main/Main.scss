@@ -140,12 +140,11 @@
   margin: 100px auto;
   background-color: #FFF;
   border-radius: 5px;
-  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.1);
   padding: 40px;
 
   .bio-header {
     width: 100%;
-    height: 15%;
     // background-color: coral;
     display: flex;
     justify-content: space-between;
@@ -198,37 +197,32 @@
   }
 
   .bio-container {
-    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    height: 65%;
-    border-radius: 5px;
 
     .left {
-      width: 70%;
-      color: $dark;
-      height: 90%;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
+      width: 70%;
 
       .bio {
-        color: $primary;
+        color: $dark;
         font-size: 1.2rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Lora', serif;
         text-align: justify;
-        line-height: 1.6em;
-        font-weight: 400;
-        width: 100%;
-        height: 70%;
+        line-height: 1.5em;
+        font-weight: 500;
+        // height: 70%;
         margin-top: 20px;
       }
 
       .buttonContainer {
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
         margin-top: 50px;
-        width: 50%;
 
         .portfolio-btn,
         .cv-btn {
@@ -253,6 +247,7 @@
           border: none;
           color: white;
           opacity: 0.9;
+          margin-right: 30px;
 
           &:hover {
             opacity: 1.0;
@@ -266,23 +261,16 @@
         }
       }
     }
+    .image_wrapper {
+      margin: 10px;
+      width: 300px;
+      margin-left: 30px;
+      height: 30vh;
 
-    .bio-image {
-      width: auto;
-      height: 40vh;
-      border-radius: 5px;
+      .bio-image {
+        width: 100%;
+        border-radius: 5px;
+      }
     }
-
-    // .bio {
-    //   color: $dark;
-    //   width: 70%;
-    //   background-color: lightgreen;
-    // }
-
-    // .bio-image {
-    //   width: 20%;
-    //   height: 100%;
-    //   margin: auto;
-    // }
   }
 }

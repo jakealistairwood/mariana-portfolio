@@ -79,7 +79,9 @@ const Main = (props) => {
               <button className={"cv-btn"}>Take a look at my CV</button>
             </div>
           </div>
-          <img src={headshot} alt="Trainee Headshot" className={"bio-image"} />
+          <div className={"image_wrapper"}>
+            <img src={headshot} alt="Trainee Headshot" className={"bio-image"} />
+          </div>
         </div>
       </article>
     </div>

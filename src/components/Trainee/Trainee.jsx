@@ -19,7 +19,9 @@ const Trainee = (props) => {
               alt="Trainee picture"
               className={styles.image}
             />
-            <div className={styles.imageOverlay}></div>
+            <div className={styles.imageOverlay}>
+              <p>View Profile</p>
+            </div>
           </div>
         </Link>
         <h4>{name}</h4>
@@ -30,3 +32,11 @@ const Trainee = (props) => {
 };
 
 export default Trainee;
+
+
+{/* <div className={styles.imageContainer}>
+  <img src={headshot} alt="Trainee picture" className={styles.image} />
+  <div className={styles.imageOverlay}>
+    <p>View Profile</p>
+  </div>
+</div> */}
