@@ -11,7 +11,6 @@ const Trainee = (props) => {
       <article className={styles.trainee}>
         <Link to="/">
           <div className={styles.imageContainer} onClick={() => {
-            console.log(props.trainee)
             setTrainee(props.trainee)
           }}>
             <img

@@ -20,11 +20,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Ben.png",
       "city": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "A man is but the product of his thoughts. What he thinks, he becomes. - Gandhi",
+      "bio": "While most are still in bed, you'll find me chasing the sunrise, either on the roads or in the gym. Despite being a lone wolf in the early hours of each day, I thrive most with others. Why work alone when you can work as part of a team? One's weakness is another’s strength, so naturally, we work better together. Communication and collaboration, that’s the key.",
+      "linkedin": "www.linkedin.com/in/benjamin-tennant-a87700139",
+      "github": "https://github.com/b-tennant",
+      "portfolio": "http://www.thebenj.com/"
     },
     {
       "_id": "DE",
@@ -85,11 +85,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Frank_McNulty.png",
       "city": "",
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum odit asperiores laborum earum iure. Perspiciatis excepturi officia, laboriosam, modi quibusdam ratione ipsa magnam amet similique, ducimus eius dicta explicabo praesentium!",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Life is either a daring adventure or nothing at all",
+      "bio": "I’m somebody who recently took a leap of faith. I decided to embark on a 3 month coding bootcamp which turned out to be one of the best decisions i’ve ever made. I’m hugely passionate and interested in coding. I love the mix of technical and creative challenges it bring and i’m always interested in learning more. I’m also hugely passionate about music and produce and dj electronic music in my own time.",
+      "linkedin": "https://www.linkedin.com/in/frank-mcnulty-591785151/",
+      "github": "https://github.com/mcnultyfrank",
+      "portfolio": "https://mcnultyfrank.github.io/Portfolio-Website/"
     },
     {
       "_id": "GM",
@@ -98,11 +98,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Grant_McIntyre.png",
       "city": "",
-      "quote": "",
-      "bio": "",
+      "quote": "Ah, but a man's reach should exceed his grasp, or what's a heaven for? - Robert Browning",
+      "bio": "I am a 27 year old who has spent the past five years working in the arts, a unique and competitive industry. Now educated and experienced in both culture and technology, I have a broad skill set that would complement a role within technology where communication and relationships lie at the heart.",
       "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "github": "https://github.com/grantmcintyre",
+      "portfolio": "https://mariana.nology.io/grant-mcintyre/about.html"
     },
     
     {
@@ -242,11 +242,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Mark_Birchall.png",
       "city": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "I'm happiest when I have just opened a new piece of hardware or software and I have to figure out how it is supposed to work and how I can make it work for me.",
+      "bio": "I have had a wide variety of jobs, in different sectors. They have all been concerned with communicating effectively to an end user, whether that was as a Bingo Caller on the seafront or Production Editor on a newspaper. I am obsessive about attention to detail. Aside from coding, I love modular synthesis, strategic boardgames and marmite on toast.",
+      "linkedin": "https://www.linkedin.com/in/mark-birchall-b519691ba/",
+      "github": "https://github.com/markb10101/",
+      "portfolio": "https://markbirchall.net/"
     },
     {
       "_id": "MC",
@@ -307,11 +307,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Steve_Maguire.png",
       "city": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Before beginning a Hunt, it is wise to ask someone what you are looking for before you begin looking for it — Winnie the Pooh",
+      "bio": "Having held senior roles working with a variety of clients, I have a strong background in project management, team leadership and client support. I enjoy collaboration and value open and honest communication within a team to facilitate successful project delivery.",
+      "linkedin": "linkedin.com/in/steve-maguire-a5a8926a/",
+      "github": "github.com/Zdeevo",
+      "portfolio": "stevemaguire.dev"
     },
     {
       "_id": "SS",
