@@ -13,7 +13,7 @@ const Main = (props) => {
     name,
     title,
     headshot,
-    city,
+    location,
     quote,
     bio,
     linkedin,

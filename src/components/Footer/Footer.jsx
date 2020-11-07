@@ -10,7 +10,7 @@ const Footer = () => {
           <img src={logo} />
         </div>
         <div className={styles.footer_links}>
-          <a href="https://nology.io/companies-employers/hire-a-developer/" target="__blank">
+          <a className={styles.hire_link} href="https://nology.io/companies-employers/hire-a-developer/" target="__blank">
             <h5>Hire a Developer</h5>
           </a>
           <a href="https://nology.io/contact/" target="__blank">
