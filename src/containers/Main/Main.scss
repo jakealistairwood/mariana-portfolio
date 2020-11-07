@@ -6,6 +6,7 @@
   width: 100%;
   height: 80vh;
   text-align: center;
+  overflow-x: hidden;
 
   .pageHeader {
     display: flex;
@@ -73,8 +74,8 @@
     .cards_slider {
       position: relative;
       max-width: 350px;
-      width: 80%;
-      margin: 0px auto;
+      width: 100%;
+      margin: 0 auto;
   
     .cards_slider_wrapper {
       display: flex;
@@ -85,7 +86,6 @@
       .headshot {
         width: 350px;
         height: auto;
-        border-radius: 5px;
         flex: 1;
         opacity: 0.5;
         transform: scale(0.7);
@@ -98,6 +98,8 @@
         height: 300px;
         // outline: 5px solid $secondary;
         position: absolute;
+        // top: 0;
+        // left: 0;
       }
   }
 
@@ -135,6 +137,8 @@
   display: flex;
   flex-direction: column;
   width: 80%;
+  // height: 80vh;
+  // border: 2px solid black;
   margin: 100px auto;
   background-color: #FFF;
   border-radius: 5px;
@@ -143,6 +147,7 @@
 
   .bio-header {
     width: 100%;
+    // background-color: coral;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,6 +155,7 @@
     .name-title {
       width: 60%;
       text-align: left;
+      // margin-left: 20px;
 
       h2 {
         color: $primary;
@@ -219,11 +225,13 @@
         text-align: justify;
         line-height: 1.5em;
         font-weight: 500;
+        // height: 70%;
         margin-top: 20px;
       }
 
       .buttonContainer {
         display: flex;
+        // justify-content: space-between;
         align-items: center;
         margin-top: 50px;
 
@@ -267,29 +275,11 @@
     .image_wrapper {
       width: 300px;
       margin-left: 30px;
-      height: 250px;
+      height: auto;
 
       .bio-image {
         width: 100%;
         border-radius: 5px;
-      }
-    }
-
-    @media screen and (max-width: 900px) {
-      .icons {
-        flex-direction: column !important;
-      }
-
-      .left {
-        width: 100%;
-      }
-
-      .image_wrapper {
-        display: none;
-
-        .bio-image {
-          display: none;
-        }
       }
     }
   }
@@ -306,6 +296,7 @@
         width: 90%;
       }
     }
+
   
     .intro {
       h1 {
@@ -378,3 +369,24 @@
   }
   }
   
+
+  @media screen and (max-width: 1000px) {
+    .trainee-bio {
+      .bio-container {
+        .left {
+          width: 100%;
+        }
+
+        .buttonContainer {
+          display: flex;
+          justify-content: space-evenly;
+        }
+      }
+
+      .image_wrapper {
+        display: none;
+      }
+    }
+
+    
+  }
