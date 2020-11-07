@@ -7,7 +7,6 @@ import data from "../../data/trainees";
 const Routes = () => {
   const [trainees, setTrainees] = useState(data.trainees);
   const [trainee, setTrainee] = useState(data.trainees[0]); 
-  console.log(data.trainees);
   
   const nextTrainee = () => {
     const newIndex = trainee.index+1;
