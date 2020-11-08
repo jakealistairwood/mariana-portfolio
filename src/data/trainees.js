@@ -72,11 +72,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Evan_Hynes.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
+      "bio": "I am a recent 1st class BSc Physics graduate from UCL who is looking for a job in front-end or full-stack software development. I have intermediate coding experience in Java, Python, HTML, CSS, JavaScript, React, Node.js, SCSS & Git. In my time at _nology I have completed various projects such as a JS snake game and a shift reporter final project.",
+      "linkedin": "https://www.linkedin.com/in/evan-hynes-b58544184/",
+      "github": "https://github.com/mountEvarus",
+      "portfolio": "http://mountevarus.io/"
     },
     {
       "_id": "FM",
@@ -151,10 +151,10 @@ const data = {
       "title": "Junior Developer",
       "headshot": "James_Loizou.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
+      "quote": "A smiley, positive developer who loves to learn!",
+      "bio": "Junior Frontend Developer based in London, who loves gaming, martial arts and travel!",
+      "linkedin": "https://www.linkedin.com/in/james-loizou-200330155/",
+      "github": "https://github.com/jloizou/Projects",
       "portfolio": ""
     },
     {
@@ -255,11 +255,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Matthew_Church.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "We of Spurs have set our sights very high, so high in fact, that even failure will have in it an echo of glory.",
+      "bio": "I first became interested in coding, working alongside devs while testing a digital transformation project. I taught myself to code in order to better understand defects and communicate better with my colleagues, but I soon realised that I wanted to be solving the problems myself instead!",
+      "linkedin": "https://www.linkedin.com/in/matthewjchurch/",
+      "github": "https://github.com/matthewjchurch",
+      "portfolio": "https://mattchurch.dev/"
     },
     {
       "_id": "NT",
@@ -268,11 +268,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Nick_Truby.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Do, or do not, there is no try!",
+      "bio": "I am a strong logical problem solver and also enjoy being visually creative in UX/UI design. I like to build modern and responsive web applications. Background practising empowered leadership at John Lewis plc, managing customer experience through visual merchandising, store design and operations.",
+      "linkedin": "https://www.linkedin.com/in/nicktruby",
+      "github": "https://github.com/nicktruby",
+      "portfolio": "https://truby.io"
     },
     {
       "_id": "OR",
@@ -281,11 +281,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Ollie_Robins.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "I find that the harder I work, the more luck I seem to have.",
+      "bio": "Having just completed  3 months with Nology on their intensive training course I am really excited to kickstart a new career in tech. I have really enjoyed solving problems and the continuous learning that software development requires. Taking what I have learnt on this course, along with the skills acquired from previous roles I'm excited for a junior developer role.",
+      "linkedin": "https://www.linkedin.com/in/ollierobins/",
+      "github": "https://github.com/olirob93",
+      "portfolio": "https://ollierobins.co.uk"
     },
     {
       "_id": "SR",
