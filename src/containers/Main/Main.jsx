@@ -23,34 +23,34 @@ const Main = (props) => {
 
   return (
     <div className={"page"}>
-        <div className={"pageHeader"}>
-          <h1>Welcome to the Mariana Intake.</h1>
-        </div>
-        <hr/>
-        <section className={"carouselSection"}>
-        { <div className={`cards_slider active_slide_${props.trainee.index}`}>
-            <div className='cards_slider_wrapper' style={{
-              'transform': `translateX(-${index*(100/trainees.length)}%)`
-            }}>
-              {
-                trainees.map(trainee => <Image key={trainee._id} trainee={trainee} />)
-              }
-            </div>
-          </div> }
-          <div className={"buttonContainer"}>
-            <button
-              onClick={() => props.prevTrainee()}
-              disabled={index === 0}
-            >
-              <FontAwesomeIcon icon={faChevronLeft} />
-            </button>
-            <button
-              onClick={() => props.nextTrainee()}
-              disabled={index === 25}
-            >
-              <FontAwesomeIcon icon={faChevronRight} />
-            </button>
+      <div className={"pageHeader"}>
+        <h1>Welcome to the Mariana Intake.</h1>
+      </div>
+      <hr />
+      <section className={"carouselSection"}>
+        {<div className={`cards_slider active_slide_${props.trainee.index}`}>
+          <div className='cards_slider_wrapper' style={{
+            'transform': `translateX(-${index * (100 / trainees.length)}%)`
+          }}>
+            {
+              trainees.map(trainee => <Image key={trainee._id} trainee={trainee} />)
+            }
           </div>
+        </div>}
+        <div className={"buttonContainer"}>
+          <button
+            onClick={() => props.prevTrainee()}
+            disabled={index === 0}
+          >
+            <FontAwesomeIcon icon={faChevronLeft} />
+          </button>
+          <button
+            onClick={() => props.nextTrainee()}
+            disabled={index === 25}
+          >
+            <FontAwesomeIcon icon={faChevronRight} />
+          </button>
+        </div>
       </section>
 
       <section className={"intro"}>
@@ -66,8 +66,12 @@ const Main = (props) => {
             <h4>{title}</h4>
           </div>
           <div className={"icons"}>
-            <FontAwesomeIcon icon={faGithub} className={"github-icon"} />
-            <FontAwesomeIcon icon={faLinkedin} />
+            <a href={github} target="__blank">
+              <FontAwesomeIcon icon={faGithub} className={"github-icon"} />
+            </a>
+            <a href={linkedin} target="__blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
           </div>
         </header>
         <p className={"quote"}>{quote}</p>
