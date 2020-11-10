@@ -22,10 +22,10 @@ const Bio = ({trainee}) => {
                 </div>
                 <div className={"icons"}>
                     <a href={github} target="__blank">
-                    <FontAwesomeIcon icon={faGithub} className={"github-icon"} />
+                        <FontAwesomeIcon icon={faGithub} className={"github-icon"} />
                     </a>
                     <a href={linkedin} target="__blank">
-                    <FontAwesomeIcon icon={faLinkedin} />
+                        <FontAwesomeIcon icon={faLinkedin} />   
                     </a>
                 </div>
             </header>
@@ -34,8 +34,8 @@ const Bio = ({trainee}) => {
                 <div className={"left"}>
                     <p className={"bio"}>{bio}</p>
                     <div className={"buttonContainer"}>
-                    <button className={"portfolio-btn"}>Portfolio</button>
-                    <button className={"cv-btn"}>CV</button>
+                        <button className={"portfolio-btn"}>Portfolio</button>
+                        <button className={"cv-btn"}>CV</button>
                     </div>
                 </div>
                 <div className={"image_wrapper"}>

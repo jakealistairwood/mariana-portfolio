@@ -43,7 +43,7 @@ const Main = () => {
       />
 
       <section className={"intro"}>
-        <h2>Introducing...</h2>
+        <h2>Meet {trainees[index].name}!</h2>
         <hr />
       </section>
 
