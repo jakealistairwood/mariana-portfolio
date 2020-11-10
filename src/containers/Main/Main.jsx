@@ -1,25 +1,33 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import React, { useState, useRef } from "react";
 import shuffle from "shuffle-array";
 
 import "./Main.scss";
 
 import Carousel from "../../components/Carousel";
 import Bio from "../../components/Bio";
+import Gallery from "../../components/Gallery";
 
 import data from "../../data/trainees";
-const trainees = shuffle(data.trainees).map((trainee, index) => ({...trainee, index}));
+const shuffledTrainees = shuffle(data.trainees).map((trainee, index) => ({...trainee, index}));
 
 const Main = () => {
+  const [trainees] = useState(shuffledTrainees);
   const [index, setIndex] = useState(12); 
+  const bio = useRef(null);
 
-  const nextTrainee = () => setIndex(trainees[index+1]);
+  const nextTrainee = () => {
+    if (index !== 25) setIndex(index+1);
+  }
+  const prevTrainee = () => {
+    if (index !== 0) setIndex(index-1);
+  }
 
-  const prevTrainee = () => setIndex(trainees[index-1]);
+  const scrollToBio = () => window.scrollTo(0, bio.current.offsetTop);
+
+  console.log(trainees[index])
 
   return (
-    <div className={"page"}>
+    <div ref={bio} className={"page"}>
       <header>
         <div className={"heading"}>
           <h1>Welcome to the Mariana Intake.</h1>
@@ -35,12 +43,13 @@ const Main = () => {
       />
 
       <section className={"intro"}>
-        <FontAwesomeIcon icon={faArrowDown} className={"arrow"} />
-        <h1>Introducing...</h1>
+        <h2>Introducing...</h2>
         <hr />
       </section>
 
       <Bio trainee={trainees[index]} />
+
+      <Gallery trainees={trainees} setIndex={setIndex} scrollToBio={scrollToBio}/>
 
     </div>
   );

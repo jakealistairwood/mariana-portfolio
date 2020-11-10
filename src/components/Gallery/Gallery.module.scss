@@ -6,9 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 50vh;
   width: 100%;
-  padding-bottom: 50px;
+  // padding-bottom: 50px;
   color: $primary;
   font-size: 3.5rem;
   // width: 350px;
@@ -21,7 +20,7 @@ hr {
   background-color: $secondary;
   border: none;
   margin: auto;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 800px) {

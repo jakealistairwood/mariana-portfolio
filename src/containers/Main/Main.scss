@@ -5,6 +5,7 @@
 .page {
   width: 100%;
   text-align: center;
+  animation: fade 0.9s ease-in;
 
   header {
     display: flex;
@@ -20,6 +21,11 @@
 
       h1 {
         font-size: 3.5rem;
+        padding-bottom: 20px;
+
+        @media screen and (max-width: 900px) {
+          font-size: 2.5rem;
+        }
       }
 
       hr {
@@ -34,10 +40,10 @@
 
   .carousel {
     display: flex;
+    position: relative;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
 
     .buttonContainer {
       button {
@@ -72,6 +78,7 @@
       .cards_slider_wrapper {
         display: flex;
         position: absolute;
+        top: 0;
         overflow-x: hidden;
         transition: transform 300ms cubic-bezier(0.455, 0.03, 0.5151, 0.955);
         
@@ -99,17 +106,13 @@
   }
 
   .intro {
-    .arrow {
-      margin: 150px;
-      font-size: 2.5rem;
-      color: $primary;
-    }
+    margin-top: 440px;
     h1 {
       color: $primary;
-      margin: 40px 0;
       opacity: 0.2;
       letter-spacing: 0.1em;
-      font-size: 3.5rem;
+      font-size: 2.5rem;
+
     }
     hr {
       width: 65px;
@@ -123,9 +126,9 @@
   .trainee-bio {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    // height: 80vh;
-    // border: 2px solid black;
     margin: 100px auto;
     background-color: #FFF;
     border-radius: 5px;
@@ -134,7 +137,6 @@
 
     .bio-header {
       width: 100%;
-      // background-color: coral;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -142,14 +144,6 @@
       .name-title {
         width: 60%;
         text-align: left;
-        // margin-left: 20px;
-
-        h2 {
-          color: $primary;
-          margin: 5px 0;
-          font-size: 2.2rem;
-          letter-spacing: 0.1em;
-        }
 
         h4 {
           color: $secondary;
@@ -225,10 +219,10 @@
           .portfolio-btn,
           .cv-btn {
             width: 180px;
-            height: 40px;
+            padding: 20px;
             border-radius: 5px;
             font-family: 'Open Sans', sans-serif;
-            font-size: 0.6rem;
+            font-size: 1rem;
             font-weight: 700;
             letter-spacing: 0.2em;
             cursor: pointer;

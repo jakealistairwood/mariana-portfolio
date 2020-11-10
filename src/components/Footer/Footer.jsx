@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footer_wrapper}>
         <div className={styles.footer_logo}>
-          <img src={logo} />
+          <img src={logo} alt="_nology logo" />
         </div>
         <div className={styles.footer_links}>
           <a className={styles.hire_link} href="https://nology.io/companies-employers/hire-a-developer/" target="__blank">

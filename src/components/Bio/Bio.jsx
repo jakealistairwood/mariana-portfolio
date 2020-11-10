@@ -34,8 +34,8 @@ const Bio = ({trainee}) => {
                 <div className={"left"}>
                     <p className={"bio"}>{bio}</p>
                     <div className={"buttonContainer"}>
-                    <button className={"portfolio-btn"}>My Portfolio</button>
-                    <button className={"cv-btn"}>Take a look at my CV</button>
+                    <button className={"portfolio-btn"}>Portfolio</button>
+                    <button className={"cv-btn"}>CV</button>
                     </div>
                 </div>
                 <div className={"image_wrapper"}>
