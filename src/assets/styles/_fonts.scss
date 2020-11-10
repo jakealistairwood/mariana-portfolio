@@ -2,25 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 
+@font-face {
+  font-family: "Morganite Book";
+  src: url("../fonts/Morganite/Morganite-Book.ttf")
+}
 
 h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3.5rem;
+  font-family: 'Morganite Book', sans-serif;
+  font-size: 9rem;
+  letter-spacing: 0.02em;
   padding-bottom: 20px;
-
+  text-transform: uppercase;
 }
 
 h2 {
+  font-family: 'Oswald', Arial;
+  text-transform: uppercase;
   color: $primary;
   margin: 5px 0;
   font-size: 2.2rem;
-  letter-spacing: 0.1em;
   padding-bottom: 20px;
+
+  @media screen and (max-width: 900px) {
+    font-size: 1.5rem;
+  }
 }
 
-h2, h3, h4, h5, h6 {
-font-family: 'Montserrat', Arial;
+h3, h4, h5, h6 {
+  font-family: 'Montserrat', Arial;
 }
 
 p {
