@@ -59,11 +59,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Ellis_Hornabrook.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Failure doesn't mean the game is over, it means you should gain more XP and try again.",
+      "bio": "A qualified junior developer eager to pair my newly acquired, highly demanded technical ability with the transferrable skills obtained in my previous career. Unapologetically a gaming enthusiast and football fanatic, I thrive in all environments, working independently and in a team.",
+      "linkedin": "https://www.linkedin.com/in/ellis-hornabrook/",
+      "github": "https://github.com/EllisHornabrook",
+      "portfolio": "https://www.ellisthedev.co.uk"
     },
     {
       "_id": "EH2",
