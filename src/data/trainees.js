@@ -46,10 +46,10 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Danny_Lambert.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
+      "quote": "You miss 100% of the shots that you don't take. - Wayne Gretzky",
+      "bio": "I am a junior software developer with a mixed background of data analysis and sports coaching. I am looking forward to landing my first role within tech to allow me to put into practice everything I have learnt whilst on the _nology course.",
+      "linkedin": "https://www.linkedin.com/in/dannylambert12/",
+      "github": "https://github.com/Danny-Lambert",
       "portfolio": ""
     },
     {
@@ -177,11 +177,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "John_Guilding.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Whether you think you can or you think you can't, you're right. - Henry Ford",
+      "bio": "I am a motivated individual who enjoys solving problems. Most experienced with JavaScript and ReactJS, but eager to expand my tech stack. I am a team player and like working in a collaborative environment. Looking for a challenging but fulfilling role. Excited to transition to the tech industry.",
+      "linkedin": "https://www.linkedin.com/in/johnguilding",
+      "github": "https://github.com/JohnGuilding",
+      "portfolio": "https://johnguilding.dev/"
     },
     {
       "_id": "JM",
@@ -190,11 +190,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Joseph_McGrath.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Every problem has a solution. You just have to be creative enough to find it. - Travis Kalanick",
+      "bio": "A team-oriented developer looking to work with innovative and creative companies. I'm passionate about technology, creativity, and bringing the best out in those that I'm around. I want to work with a team which believes in the work they are doing, supports and encourages one another and is continually innovating and improving what they do.",
+      "linkedin": "https://www.linkedin.com/in/joseph-daniel-mcgrath/",
+      "github": "https://github.com/jdmcgrath",
+      "portfolio": "https://joemcgrath.dev"
     },
     {
       "_id": "KT",
@@ -229,11 +229,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Manuela_Redinciuc.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "When you don't create things, you become defined by your tastes rather than ability. Your tastes only narrow and exclude people, so create. - Jonathan Gillette",
+      "bio": "Results-oriented and highly organized professional I’m seeking to expand my career into Software Development. Experienced in Javascript and ReactJS, however I am motivated to progress and learn new skills in my new role. I believe my excellent communication skills, analytical thinking and self-motivation are a good foundation for a career in tech.",
+      "linkedin": "https://www.linkedin.com/in/elena-manuela-redinciuc-828a4625/",
+      "github": "https://github.com/ManuelaRE",
+      "portfolio": "https://manuelare.github.io/portfolio/"
     },
     {
       "_id": "MB",
