@@ -8291,6 +8291,11 @@ normalize-url@^4.1.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
 
+normalize.css@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -9886,6 +9891,7 @@ react-scripts@4.0.0:
 react-swipeable@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-6.0.0.tgz#356ec39d28d6ea19fd27dfee1d5fab5d59d1d060"
+  integrity sha512-0YqtZ6+wQFkii4g9hThPTk5Uof6sbJevUMyr07VwXQux+0mX4n7HJVVizp73+s8ABlxnG0eJiZ8L3BPOjUyF1w==
 
 react-test-renderer@^16.0.0-0:
   version "16.14.0"
@@ -10676,6 +10682,7 @@ shellwords@^0.1.1:
 shuffle-array@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/shuffle-array/-/shuffle-array-1.0.1.tgz#c4ff3cfe74d16f93730592301b25e6577b12898b"
+  integrity sha1-xP88/nTRb5NzBZIwGyXmV3sSiYs=
 
 side-channel@^1.0.2:
   version "1.0.3"
