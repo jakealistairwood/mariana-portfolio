@@ -33,11 +33,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Dan_Evans.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "It always seems impossible until it's done. - Nelson Mandela",
+      "bio": "I am a responsible and engaging team player who is open-minded and adaptable. I am calm in complex and difficult situations that require teamwork, practical solutions, critical thinking and analysis. In my spare time, I enjoy gaming. I also enjoy travelling, experiencing new countries and cultures and cooking.",
+      "linkedin": "https://www.linkedin.com/in/daniel-evans-35642b1b9/",
+      "github": "https://github.com/daniel-jj-evans?tab=repositories",
+      "portfolio": "https://portfolio-c141c.web.app/"
     },
     {
       "_id": "DL",
