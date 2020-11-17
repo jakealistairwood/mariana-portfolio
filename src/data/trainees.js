@@ -7,8 +7,8 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Aiste.png",
       "location": "",
-      "quote": '"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum odit asperiores laborum earum iure. Perspiciatis excepturi officia, laboriosam, modi quibusdam ratione ipsa magnam amet similique, ducimus eius dicta explicabo praesentium!"',
-      "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia est sint mollitia debitis quam distinctio consequuntur iure ullam sapiente numquam quae quo, explicabo repellendus nam voluptatum itaque corrupti obcaecati facilis.        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia est sint mollitia debitis quam distinctio consequuntur iure ullam sapiente numquam quae quo, explicabo repellendus nam voluptatum itaque corrupti obcaecati facilis.",
+      "quote": "",
+      "bio": "",
       "linkedin": "",
       "github": "",
       "portfolio": ""
@@ -24,7 +24,7 @@ const data = {
       "bio": "While most are still in bed, you'll find me chasing the sunrise, either on the roads or in the gym. Despite being a lone wolf in the early hours of each day, I thrive most with others. Why work alone when you can work as part of a team? One's weakness is another’s strength, so naturally, we work better together. Communication and collaboration, that’s the key.",
       "linkedin": "www.linkedin.com/in/benjamin-tennant-a87700139",
       "github": "https://github.com/b-tennant",
-      "portfolio": "http://www.thebenj.com/"
+      "portfolio": "http://thebenj.com/"
     },
     {
       "_id": "DE",
@@ -125,11 +125,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Jack_Roy.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "Have a purpose beyond yourself",
+      "bio": "Hi, I’m Jack. I really enjoy coding, and I love designing websites. I am very sociable, and thrive when working with others. My main goal when working is to constantly learn new skills to add to my repertoire.  I hope to join a company that I can learn a lot from, and also contribute a lot to.",
+      "linkedin": "https://www.linkedin.com/in/jack-roy-49967a156/",
+      "github": "https://github.com/jackroy08/",
+      "portfolio": "https://jackroy.dev/"
     },
     {
       "_id": "JW",
@@ -138,9 +138,9 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Jake_Wood.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
+      "quote": "He who has a why can bear almost any how. - Viktor Frankl",
+      "bio": "The decision to pursue a career in web development ultimately boils down to the fact that it combines two of my biggest values; helping others and being able to explore my creativity. In particular, creating and developing beautifully designed and meaningful applications is something I'm hugely passionate about. While I’m fully aware that I’m at the start of my journey into web development; I am relishing the prospect of building on the strong foundations developed during my time on the _nology course and advancing my skillset further.",
+      "linkedin": "https://www.linkedin.com/in/jake-wood-726141114/",
       "github": "https://github.com/jakealistairwood",
       "portfolio": "https://jakealistairwood.github.io/portfolio/"
     },
@@ -164,11 +164,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Joe_Calleya.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "I started at the bottom, and I'm working my way down. - Jerry Lee Lewis",
+      "bio": "I am a generally relaxed, happy and honest person . I've had a 10 year career in financial database development. This has given me an aptitude for solving problems with code , commercial project experience and an ability to communicate with many types of people. My interest in Tech has allowed my creativity to flow freely and I'm excited to begin my future in Tech.",
+      "linkedin": "https://www.linkedin.com/in/joe-calleya-17253037/",
+      "github": "https://github.com/joecalleya",
+      "portfolio": "https://joecalleya.dev/"
     },
     {
       "_id": "JG",
@@ -216,11 +216,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Manuel_Lucas.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "An error does not become a mistake until you refuse to correct it. - JFK",
+      "bio": "I transitioned from an experienced nutritionist to a junior dev, just so that I can eat junk food while I code. I am quite determined to get what I want to achieve. In November 2020 I graduated from an intensive course in software development with Nology where I was able to learn to code at a fast pace, work on my portfolio, and experience working 5 weeks on a real client-project using React.",
+      "linkedin": "https://www.linkedin.com/in/manuel-krus-galvao-lucas-821b091a2/",
+      "github": "https://github.com/manelucas",
+      "portfolio": "https://manelucas.github.io/portfolio/"
     },
     {
       "_id": "MR",
@@ -320,11 +320,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Steve_Shackleton.png",
       "location": "",
-      "quote": "",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "You mustn’t be afraid to dream a little bigger",
+      "bio": "Hi, I’m Steve, a creative Junior Developer keen to learn new skills to build on those that I’ve learned already. I’m highly motivated and very interested in the film and screen industry, AI and game technology. In my spare time I produce music as well as act and would be delighted to put my expertise to work for your company.",
+      "linkedin": "www.linkedin.com/in/steve-shackleton-43900aa4",
+      "github": "https://github.com/Shackleton91",
+      "portfolio": "https://shackdev.com/"
     },
     {
       "_id": "VR",
@@ -333,11 +333,11 @@ const data = {
       "title": "Junior Developer",
       "headshot": "Vuli_Russell.png",
       "location": "",
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum odit asperiores laborum earum iure. Perspiciatis excepturi officia, laboriosam, modi quibusdam ratione ipsa magnam amet similique, ducimus eius dicta explicabo praesentium!",
-      "bio": "",
-      "linkedin": "",
-      "github": "",
-      "portfolio": ""
+      "quote": "What do sharks do on Monday mornings? They get up and start biting. That's me.",
+      "bio": "After completing my masters in chemical engineering, an working as a process engineer for several years I realized that the most enjoyable part of my work was was the times I wrote code to solve problems. I have completed the _nology course with the aim of changing careers and doing it full time!",
+      "linkedin": "https://www.linkedin.com/in/vuli-willis-1920791bb/",
+      "github": "https://github.com/vuli-russell",
+      "portfolio": "https://vulirussell.io/"
     }
   ]
 }
