@@ -36,10 +36,10 @@ const Main = () => {
       </header>
 
       <Carousel 
-        trainees={trainees} 
-        index={index} 
-        nextTrainee={nextTrainee}
-        prevTrainee={prevTrainee}   
+          trainees={trainees} 
+          index={index} 
+          nextTrainee={nextTrainee}
+          prevTrainee={prevTrainee}   
       />
 
       <section className={"intro"}>
