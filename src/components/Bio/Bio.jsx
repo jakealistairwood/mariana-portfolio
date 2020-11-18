@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
-const Bio = ({trainee}) => {
+const Bio = ({ trainee }) => {
     const {
         name,
         title,
@@ -10,9 +10,11 @@ const Bio = ({trainee}) => {
         linkedin,
         quote,
         bio,
-        headshot
+        headshot,
+        cv,
+        portfolio
     } = trainee;
-    
+
     return (
         <article className={"trainee-bio"}>
             <header className={"bio-header"}>
@@ -25,7 +27,7 @@ const Bio = ({trainee}) => {
                         <FontAwesomeIcon icon={faGithub} className={"github-icon"} />
                     </a>
                     <a href={linkedin} target="__blank">
-                        <FontAwesomeIcon icon={faLinkedin} />   
+                        <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>
             </header>
@@ -34,8 +36,12 @@ const Bio = ({trainee}) => {
                 <div className={"left"}>
                     <p className={"bio"}>{bio}</p>
                     <div className={"buttonContainer"}>
-                        <button className={"portfolio-btn"}>Portfolio</button>
-                        <button className={"cv-btn"}>CV</button>
+                        <a href={portfolio} target="__blank">
+                            <button className={"portfolio-btn"}>Portfolio</button>
+                        </a>
+                        <a href={cv} download>
+                            <button className={"cv-btn"}>CV</button>
+                        </a>
                     </div>
                 </div>
                 <div className={"image_wrapper"}>
